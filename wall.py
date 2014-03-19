@@ -22,5 +22,4 @@ def comment_on_posts(posts):
         s = requests.post(url, data = parameters)
 
 if __name__ == '__main__':
-    #commentall(get_posts())
     print get_posts()
